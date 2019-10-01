@@ -4,3 +4,8 @@ server:
 my:
   name: zhaoyanhai
   age: 24
+  number: ${random.int}
+  uuid: ${random.uuid}
+  max: ${random.int(10)}
+  value: ${random.value}
+  greeting: hi,i'm  ${my.name}
