@@ -1,6 +1,3 @@
-server:
-  port: 8081
-
 my:
   name: zhaoyanhai
   age: 24
@@ -9,3 +6,7 @@ my:
   max: ${random.int(10)}
   value: ${random.value}
   greeting: hi,i'm  ${my.name}
+
+spring:
+  profiles:
+    active: test
