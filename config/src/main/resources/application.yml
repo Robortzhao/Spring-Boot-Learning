@@ -1,2 +1,6 @@
 server:
   port: 8081
+
+my:
+  name: zhaoyanhai
+  age: 24
