@@ -9,5 +9,14 @@
 	&emsp;&emsp;3.2 修改RESTApi请求参数中的@PathVariable("id")为@RequestParam(value = "id") int id  
 4.SpringBootLearning-jpa  
 	&emsp;&emsp;4.1 yml文件中文件中要配置server:port在spring前面  
-	&emsp;&emsp;4.2 Entity上加上这个注解@JsonIgnoreProperties(value = {"hibernateLazyInitializer"})
+	&emsp;&emsp;4.2 Entity上加上这个注解@JsonIgnoreProperties(value = {"hibernateLazyInitializer"})  
+	5.SpringBootLearning-beetSql  
+	&emsp;&emsp;5.1 beetSql的优点  
+	&emsp;&emsp;5.2 需要自己装配
+	
+	
+
+	
+
+
 	
