@@ -26,5 +26,13 @@
 	10.SpringBootLearning-swagger 利用swagger生成api文档,很强大的API文档生成工具  
 	11.SpringBootLearning-cache 利用SpringBoot默认的cache进行测试  
 	&emsp;&emsp;11.1在不使用其他第三方缓存依赖的时候，springboot自动采用ConcurrenMapCacheManager作为缓存管理器  
-	&emsp;&emsp;11.2在启动类上添加@EnableCaching,在具体的方法上添加@Cacheable("")
+	&emsp;&emsp;11.2在启动类上添加@EnableCaching,在具体的方法上添加@Cacheable("")  	  
+12.SpringBootLearning-scheduling task  
+&emsp;&emsp;12.1在程序的入口加上@EnableScheduling注解  
+&emsp;&emsp;12.2在定时方法上加@Scheduled注解  
+&emsp;&emsp;&emsp;&emsp;@Scheduled(fixedRate = 5000) ：上一次开始执行时间点之后5秒再执行  
+&emsp;&emsp;&emsp;&emsp;@Scheduled(fixedDelay = 5000) ：上一次执行完毕时间点之后5秒再执行  
+&emsp;&emsp;&emsp;&emsp;@Scheduled(initialDelay=1000, fixedRate=5000) ：第一次延迟1秒后执行，之后按fixedRate的规则每5秒执行一次  
+&emsp;&emsp;&emsp;&emsp;@Scheduled(cron=” /5 “) ：通过cron表达式定义规则  
+13.SpringBootLearning-scheduling-restTemplate 利用restTemplate去消费一个服务
 	
