@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class RedisApplicationTests {
 
-    public static Logger logger = LoggerFactory.getLogger(RedisApplicationTests.class);
+    public static Logger LOGGER = LoggerFactory.getLogger(RedisApplicationTests.class);
 
     public void contextLoads() {
     }
@@ -25,8 +25,8 @@ public class RedisApplicationTests {
     public void testRedis() {
         redisDao.setKey("name", "zhaoyanhai");
         redisDao.setKey("age", "24");
-        logger.info(redisDao.getValue("name"));
-        logger.info(redisDao.getValue("age"));
+        LOGGER.info(redisDao.getValue("name"));
+        LOGGER.info(redisDao.getValue("age"));
     }
 
 }
