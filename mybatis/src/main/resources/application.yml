@@ -7,3 +7,7 @@ spring:
     url: jdbc:mysql://localhost:3306/world?useUnicode=true&serverTimezone=GMT&characterEncoding=UTF-8&useSSL=false
     password: root
     username: root
+
+mybatis:
+  mapper-locations: classpath*:mybatis/*Mapper.xml
+  type-aliases-package: com.springbootlearning.mybatis.entity
