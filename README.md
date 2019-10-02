@@ -23,4 +23,5 @@
 	&emsp;&emsp;9.1创建消息接收者  
 	&emsp;&emsp;9.2注入消息接收者  
 	&emsp;&emsp;9.3注入消息监听容器,入参是RedisConnectionFactory和MessageListenerAdapter,MessageListenerAdapter构造函数中设置消息监听对象和具体的方法  
+	10.SpringBootLearning-swagger 利用swagger生成api文档,很强大的API文档生成工具
 	
