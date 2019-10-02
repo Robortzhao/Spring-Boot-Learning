@@ -15,4 +15,12 @@
 	&emsp;&emsp;5.2 需要自己装配  
 6.SpringBootLearning-mybatis  
 	&emsp;&emsp;6.1 controller层如何支持JSON数据格式,现在只支持Mult-part格式的  
-	7.SpringBootLearning-mybatis-tx mybatis开启声明式事务通过@Transactional
+	7.SpringBootLearning-mybatis-tx mybatis开启声明式事务通过@Transactional  
+	8.SpringBootLearning-redis  
+	&emsp;&emsp;8.1注意数据源的配置问题和操作的方法,通过StringRedisTemplate和ValueOperations操作数据库  
+	&emsp;&emsp;8.2注意使用logger打印日志,便于测试  
+	9.SpringBootLearning-redis-MQ 使用redis实现消息队列的方式  
+	&emsp;&emsp;9.1创建消息接收者  
+	&emsp;&emsp;9.2注入消息接收者  
+	&emsp;&emsp;9.3注入消息监听容器,入参是RedisConnectionFactory和MessageListenerAdapter,MessageListenerAdapter构造函数中设置消息监听对象和具体的方法  
+	
