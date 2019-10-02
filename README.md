@@ -14,11 +14,5 @@
 	&emsp;&emsp;5.1 beetSql的优点  
 	&emsp;&emsp;5.2 需要自己装配  
 6.SpringBootLearning-mybatis  
-	&emsp;&emsp;5.1 controller层如何支持JSON数据格式,现在只支持Mult-part格式的
-
-	
-
-	
-
-
-	
+	&emsp;&emsp;6.1 controller层如何支持JSON数据格式,现在只支持Mult-part格式的  
+	7.SpringBootLearning-mybatis-tx mybatis开启声明式事务通过@Transactional
