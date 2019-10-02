@@ -10,10 +10,12 @@
 4.SpringBootLearning-jpa  
 	&emsp;&emsp;4.1 yml文件中文件中要配置server:port在spring前面  
 	&emsp;&emsp;4.2 Entity上加上这个注解@JsonIgnoreProperties(value = {"hibernateLazyInitializer"})  
-	5.SpringBootLearning-beetSql  
+5.SpringBootLearning-beetSql  
 	&emsp;&emsp;5.1 beetSql的优点  
-	&emsp;&emsp;5.2 需要自己装配
-	
+	&emsp;&emsp;5.2 需要自己装配  
+6.SpringBootLearning-mybatis  
+	&emsp;&emsp;5.1 controller层如何支持JSON数据格式,现在只支持Mult-part格式的
+
 	
 
 	
