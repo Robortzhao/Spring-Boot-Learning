@@ -11,7 +11,7 @@
     <groupId>com.spring-boot-learning</groupId>
     <artifactId>uploadfile</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>uploadfile</name>
+    <name>uploadFile</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
