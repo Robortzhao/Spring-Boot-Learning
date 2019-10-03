@@ -4,13 +4,12 @@ import com.springbootlearning.submitform.entity.Greeting;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.Mapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
 /**
  * @author zhaoyanhai
- * @description TODO
+ * @description controller
  * @date 2019/10/4
  **/
 @Controller
