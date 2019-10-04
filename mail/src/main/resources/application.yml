@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-boot-mail
+  mail:
+    host: smtp.qq.com
+    username: 408453682@qq.com
+    password: lmsomolycxffbheh
+    default-encoding: UTF-8
+
+mail:
+  fromMail:
+    addr: 408453682@qq.com

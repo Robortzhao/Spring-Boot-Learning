@@ -16,6 +16,8 @@ public class ScheduledTasks {
 
     private static final SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
 
+
+    private Integer count = 0;//用于统计定时任务运行次数
     /**
      * @Scheduled(fixedRate = 5000) ：上一次开始执行时间点之后5秒再执行
      * @Scheduled(fixedDelay = 5000) ：上一次执行完毕时间点之后5秒再执行
@@ -26,4 +28,11 @@ public class ScheduledTasks {
     public void reportCurrentTime() {
         LOGGER.info("The time is now {}", dateFormat.format(new Date()));
     }
+
+    @Scheduled(cron = "*/5 * * * * ?")
+    public void process() {
+        LOGGER.info("this is scheduler task runing {} ", count++);
+    }
+
+
 }
