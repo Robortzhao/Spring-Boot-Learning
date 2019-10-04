@@ -37,8 +37,11 @@
 13.SpringBootLearning-scheduling-restTemplate 利用restTemplate去消费一个服务  
 14.SpringBootLearning-asynchronous 在springBoot中使用异步方法  
 &emsp;&emsp;14.1要在启动类上添加@EnableAsync开启异步任务,并且配置AsyncConfigurerSupport，比如最大的线程池为2.  
-&emsp;&emsp;14.2要在调用的异步方法上添加@Asyns注解，表明这是一个异步方法  
-15.SpringBootLearning-uploadfile 利用springboot上传文件到服务器,目前存在上传问题,  
+&emsp;&emsp;14.2要在调用的异步方法上添加@Asyns注解，表明这是一个异步方法      
+15.SpringBootLearning-uploadFile 利用springboot上传文件到服务器,目前存在上传问题  
 &emsp;&emsp;15.1没有上传到指定目录  
-&emsp;&emsp;15.2下载指定文件显示错误
+&emsp;&emsp;15.2下载指定文件显示错误  
+16.SpringBootLearning-validateForm 利用springboot在客户端进行校验,利用最新的模板spring-boot-starter-thymeleaf  
+17.SpringBoot-submitForm 利用spring-boot-starter-thymeleaf进行提交表单，需要注意@GetMapping()和@PostMapping()的区别
+
 	
