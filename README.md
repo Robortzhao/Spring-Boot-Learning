@@ -34,7 +34,7 @@
 &emsp;&emsp;&emsp;&emsp;@Scheduled(fixedDelay = 5000) ：上一次执行完毕时间点之后5秒再执行  
 &emsp;&emsp;&emsp;&emsp;@Scheduled(initialDelay=1000, fixedRate=5000) ：第一次延迟1秒后执行，之后按fixedRate的规则每5秒执行一次  
 &emsp;&emsp;&emsp;&emsp;@Scheduled(cron=” /5 “) ：通过cron表达式定义规则  
-13.SpringBootLearning-scheduling-restTemplate 利用restTemplate去消费一个服务  
+13.SpringBootLearning-restTemplate 利用restTemplate去消费一个服务  
 14.SpringBootLearning-asynchronous 在springBoot中使用异步方法  
 &emsp;&emsp;14.1要在启动类上添加@EnableAsync开启异步任务,并且配置AsyncConfigurerSupport，比如最大的线程池为2.  
 &emsp;&emsp;14.2要在调用的异步方法上添加@Asyns注解，表明这是一个异步方法      
