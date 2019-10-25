@@ -1,0 +1,4 @@
+springbootlearning:
+  hello:
+    prefix: SpringBootLearning
+    suffix: HelloWorld
